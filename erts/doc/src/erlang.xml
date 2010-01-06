@@ -347,7 +347,7 @@ iolist() = [char() | binary() | iolist()]
       </desc>
     </func>
     <func>
-      <name>binary_to_term(Binary,Opts) -> term()</name>
+      <name>binary_to_term(Binary, Opts) -> term()</name>
       <fsummary>Decode an Erlang external term format binary</fsummary>
       <type>
         <v>Opts = [safe]</v>
